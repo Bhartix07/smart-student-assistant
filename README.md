@@ -82,3 +82,4 @@ The server exposes these endpoints under `/api/assistant`:
 ## Notes
 
 If you add a backend server or change the API port, update `client/src/App.jsx` `API_BASE` accordingly.
+project deploy link:https://smart-student-assistant-mv1v.vercel.app/
