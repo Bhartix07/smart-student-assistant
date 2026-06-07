@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_BASE = "http://localhost:5000/api/assistant";
-
+//const API_BASE = "http://localhost:5000/api/assistant";
+const API_BASE = "https://smart-student-assistant-cz2r.onrender.com/api/assistant";
 export default function App() {
   const [topics, setTopics] = useState([]);
   const [chatInput, setChatInput] = useState("");
